@@ -4,6 +4,7 @@
 # stworzyć 2 przykładowe obiekty klasy, tak aby dla pierwszego obiektu metoda
 # zwracała true , a dla drugiego false .
 
+
 class Student:
     def __init__(self, name, marks):
         self.name = name
@@ -11,6 +12,7 @@ class Student:
 
     def is_passed(self):
         return self.marks > 50
+
 
 student1 = Student("Jan", 60)
 student2 = Student("Juan", 30)

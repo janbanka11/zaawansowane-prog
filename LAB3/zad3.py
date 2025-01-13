@@ -13,7 +13,6 @@ class Property:
 class House(Property):
     def __init__(self, plot):
         self.plot = plot
-        Property.__init__(self, self.area, self.rooms, self.price, self.address)
     def __str__(self):
         return f"House plot:{self.plot}"
 
